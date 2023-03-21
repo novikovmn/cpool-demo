@@ -1,0 +1,16 @@
+CREATE DATABASE first_db;
+
+CREATE TABLE `person` (
+  `id` int DEFAULT NULL,
+  `name` text,
+  `age` int DEFAULT NULL,
+  `email` text
+);
+
+INSERT INTO `person`
+VALUES
+(1,'Tom',18,'tom@mail.ru'),
+(2,'Bob',28,'bob@mail.ru'),
+(3,'Bob1',38,'bob123@mail.ru'),
+(4,'Bob2',45,'bob123123@mail.ru'),
+(15,'Lol',112,'azazazaz@mail.com');
